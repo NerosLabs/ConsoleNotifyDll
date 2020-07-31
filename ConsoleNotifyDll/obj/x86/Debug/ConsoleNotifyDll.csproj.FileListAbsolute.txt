@@ -1,0 +1,6 @@
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\bin\x86\Debug\NerosConsoleNotify.dll
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\bin\x86\Debug\NerosConsoleNotify.pdb
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\bin\x86\Debug\NerosConsoleNotify.tlb
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\x86\Debug\ConsoleNotifyDll.csproj.CoreCompileInputs.cache
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\x86\Debug\NerosConsoleNotify.dll
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\x86\Debug\NerosConsoleNotify.pdb
