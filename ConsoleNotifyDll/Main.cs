@@ -2,40 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Threading;
+using ConsoleNotifyDll;
+using System.Reflection;
 
 namespace ConsoleNotify {
     [InterfaceType(ComInterfaceType.InterfaceIsDual)]
-    [Guid("01A31113-9353-44cc-A1F4-C6F1210E4B30")]  //Allocate your own GUID
+    [Guid("01A31113-9353-44cc-A1F4-C6F1210E4B30")]  
     public interface _Notify {
-        string HelloWorld { get; }
-        int showNotify { get; }
+        void showNotify(string NotifyTitle,string NotifyMessage) ; 
     }
 
     [ClassInterface(ClassInterfaceType.None)]
-    [Guid("E2F07CD4-CE73-4102-B35D-119362624C47")]  //Allocate your own GUID
-    [ProgId("TestDll.Test")]
+    [Guid("E2F07CD4-CE73-4102-B35D-119362624C47")]  
+    [ProgId("NerosNotify")]
     public class Notify : _Notify {
-        String title { get; set; }
-        String message { get; set; }
-        public string HelloWorld { 
-            get { 
-                return "Hello, World! "; 
-            } 
-        }
-        public int showNotify {
-            get {
-                return this.show();
-            }
-        }
-
-        private int show() {
-            NotifyIcon notify = new NotifyIcon();
-            notify.ShowBalloonTip(10, "teste", "teste", ToolTipIcon.Info);
-            return 1;
+        public void showNotify(string title, string message) {
+            frmMain frm = new frmMain();
+            frm.Dispose();
         }
     }
 }
- 
+

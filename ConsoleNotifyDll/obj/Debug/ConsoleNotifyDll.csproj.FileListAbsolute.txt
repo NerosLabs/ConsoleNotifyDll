@@ -4,3 +4,5 @@ E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\Console
 E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\bin\Debug\NerosConsoleNotify.tlb
 E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\Debug\NerosConsoleNotify.dll
 E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\Debug\NerosConsoleNotify.pdb
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\Debug\ConsoleNotifyDll.frmMain.resources
+E:\OneDrive\Neros Labs\Projetos em Visual Studio\CSharp_ConsoleNotifyDll\ConsoleNotifyDll\obj\Debug\ConsoleNotifyDll.csproj.GenerateResource.cache
