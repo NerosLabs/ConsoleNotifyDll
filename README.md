@@ -1,9 +1,5 @@
 # Console Notify DLL
 > Biblioteca para utilizar a Central de Notificações do Windows 10.
-
-[![Build Status][in-dev]][neros-labs]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Esta biblioteca é uma versão compilada da classe Notify do .net framework compatível para utilizar nos sistemas baseados em COM.
 
 ![](header.png)
@@ -11,5 +7,9 @@ Esta biblioteca é uma versão compilada da classe Notify do .net framework comp
 ## Instalação
 Windows:
 ```sh
-regsvr32 
+regsvr32 ConsoleNotify.dll
 ```
+## Como utilizar
+1) Registre a DLL no Windows
+2) Inclua a referência na sua IDE
+
