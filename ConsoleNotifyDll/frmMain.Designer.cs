@@ -1,4 +1,4 @@
-﻿namespace ConsoleNotifyDll {
+﻿namespace NerosNotify {
     partial class frmMain {
         /// <summary>
         /// Required designer variable.

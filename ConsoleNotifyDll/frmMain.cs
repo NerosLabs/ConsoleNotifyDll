@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ConsoleNotifyDll {
+namespace NerosNotify {
     public partial class frmMain : Form {
-        public frmMain() {
+        public frmMain(String title, String message) {
             InitializeComponent();
 
             Notify.Visible = true;
-            Notify.BalloonTipTitle = "teste";
-            Notify.BalloonTipText = "descrição";
+            Notify.BalloonTipTitle = title;
+            Notify.BalloonTipText = message;
             Notify.BalloonTipIcon = ToolTipIcon.Info;
             Notify.ShowBalloonTip(5000);
 

@@ -6,7 +6,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
-using ConsoleNotifyDll;
+using NerosNotify;
 using System.Reflection;
 
 namespace ConsoleNotify {
@@ -21,7 +21,7 @@ namespace ConsoleNotify {
     [ProgId("NerosNotify")]
     public class Notify : _Notify {
         public void showNotify(string title, string message) {
-            frmMain frm = new frmMain();
+            frmMain frm = new frmMain((String)title,(String)message );
             frm.Dispose();
         }
     }
